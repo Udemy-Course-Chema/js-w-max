@@ -1,3 +1,12 @@
-alert('This is an alert!');
+// alert('This is an alert!');
 
-outputResult(50, 2);
+const defaultResult = 0;
+
+let currentResult = defaultResult;
+
+currentResult = (currentResult + 10) * 3 / 2 - 1 ;
+
+const description = `(${defaultResult} + 10) * 3 / 2 - 1`;  
+
+outputResult( currentResult, description );
+console.log( prueba );
